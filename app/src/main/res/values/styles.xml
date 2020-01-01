@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SecondActivityTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorInactive</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorActive</item>
+    </style>
+
+    <style name="OTPActivityTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <item name="colorAccent">@color/colorInactive</item>
+        <item name="colorPrimary">@color/colorInactive2</item>
+        <item name="colorPrimaryDark">@color/colorActive</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- Onboarding Activity  -->
+    <style name="OnBoardingTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimaryDark">#FFF</item>
+        <item name="colorPrimary">#FFF</item>
+        <item name="android:background">#FFF</item>
+        <item name="colorAccent">@color/colorActive</item>
+    </style>
+
+    <style name="tabTextStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

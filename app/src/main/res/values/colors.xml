@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorActive">#3F3356</color>
+    <color name="colorInactive">#3E4474</color>
+    <color name="colorInactive2">#BBBBBB</color>
+
+    <color name="indicatorPagerColor">#BE52F2</color>
+    <color name="translucentWhite">#99FFFFFF</color>
+</resources>

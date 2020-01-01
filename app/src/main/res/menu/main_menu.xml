@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_activity"
+        android:title="Next Activity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_another"
+        android:title="Another Activity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rx_java_activity"
+        android:title="Rx Java Activity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/otp_activity"
+        android:title="OTP Verification Activity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/onboarding_activity"
+        android:title="Onboarding Activity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/country_code_picker_activity"
+        android:title="Country Code Picker Activity"
+        app:showAsAction="never" />
+</menu>

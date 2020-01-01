@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello Dagger 2</string>
+    <string name="title_activity_bottom_nav">Bottom Nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="tab_text_1">Popular</string>
+    <string name="tab_text_2">Latest</string>
+    <string name="tab_text_3">Favorites</string>
+</resources>
